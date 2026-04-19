@@ -15,7 +15,21 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@v2
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Install SonarCloud scanner
+        run: dotnet tool install --global dotnet-sonarscanner
+
+      - name: Begin SonarCloud analysis
+        run: dotnet sonarscanner begin /k:"${{ github.repository }}" /o:"$(echo '${{ github.repository }}' | cut -d'/' -f1)" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
+
+      - name: Build
+        run: dotnet build
+
+      - name: End SonarCloud analysis
+        run: dotnet sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
