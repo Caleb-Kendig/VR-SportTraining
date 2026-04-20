@@ -15,7 +15,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # 2. Setup .NET (required for C#)
+      # 2. Setup .NET (required for C# / Unity analysis)
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
@@ -25,14 +25,14 @@ jobs:
       - name: Install SonarScanner
         run: dotnet tool install --global dotnet-sonarscanner
 
-      # 4. Start SonarCloud analysis
+      # 4. Begin SonarCloud analysis
       - name: Begin SonarCloud scan
-        run: dotnet sonarscanner begin /k:"YOUR_PROJECT_KEY" /o:"YOUR_ORG" /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
+        run: dotnet sonarscanner begin /k:"VR-SportTraining" /o:"caleb-kendig" /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
 
-      # 5. Build Unity-generated solution
+      # 5. Build Unity solution
       - name: Build solution
         run: dotnet build *.sln
 
-      # 6. End SonarCloud scan
+      # 6. End SonarCloud analysis
       - name: End SonarCloud scan
         run: dotnet sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
