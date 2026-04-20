@@ -29,6 +29,9 @@ jobs:
       - name: Begin SonarCloud scan
         run: dotnet sonarscanner begin /k:"Caleb-Kendig_VR-SportTraining" /o:"caleb-kendig" /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
 
+      - name: Build solution
+        run: dotnet build
+        
       # 5. Build Unity solution
       - name: Build solution
         run: dotnet build *.sln
