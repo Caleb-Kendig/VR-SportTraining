@@ -31,7 +31,7 @@ jobs:
 
       
       - name: Build solution
-        run: dotnet build VR-SportTraining.sln
+        run: dotnet build VR-SportTraining.slnx
 
       # 6. End SonarCloud analysis
       - name: End SonarCloud scan
