@@ -27,8 +27,7 @@ jobs:
 
       # 4. Start SonarCloud analysis
       - name: Begin SonarCloud scan
-        - name: Begin SonarCloud scan
-  run: dotnet sonarscanner begin /k:"YOUR_PROJECT_KEY" /o:"YOUR_ORG" /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
+        run: dotnet sonarscanner begin /k:"YOUR_PROJECT_KEY" /o:"YOUR_ORG" /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
 
       # 5. Build Unity-generated solution
       - name: Build solution
