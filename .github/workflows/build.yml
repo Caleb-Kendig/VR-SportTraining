@@ -13,7 +13,10 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
+        
+      - name: Debug files
+        run: dir
+        
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
@@ -23,16 +26,12 @@ jobs:
         run: dotnet tool install --global dotnet-sonarscanner
 
       - name: Begin SonarCloud scan
-        working-directory: ./VR-SportTraining
         run: dotnet sonarscanner begin /k:"Caleb-Kendig_VR-SportTraining" /o:"caleb-kendig" /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
 
-      # 👉 ADD THIS HERE
       - name: Restore
-        working-directory: .
         run: dotnet restore VR-SportTraining.sln
 
       - name: Build solution
-        working-directory: ./VR-SportTraining
         run: dotnet build VR-SportTraining.sln
 
       - name: End SonarCloud scan
