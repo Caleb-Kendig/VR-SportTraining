@@ -19,9 +19,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      # 🔍 DEBUG: shows what project files actually exist
+      # 🔍 DEBUG: list all project files (PowerShell-safe)
       - name: List all .csproj files
-        run: dir /s *.csproj
+        shell: pwsh
+        run: Get-ChildItem -Path . -Recurse -Filter *.csproj
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
@@ -47,7 +48,7 @@ jobs:
           /o:"caleb-kendig"
           /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
           /d:sonar.host.url="https://sonarcloud.io"
-          /d:sonar.exclusions=**/Library/**,**/Temp/**,**/obj/**,**/*.meta
+          /d:sonar.exclusions=**/Library/**,**/Temp/**,**/obj/**,**/*.meta,**/*.csproj
           /d:sonar.dotnet.excludeGeneratedCode=true
 
       - name: Build solution
