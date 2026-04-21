@@ -52,7 +52,7 @@ jobs:
           /d:sonar.dotnet.excludeGeneratedCode=true
 
       - name: Build solution
-        run: dotnet build Assembly-CSharp.csproj
+        run: dotnet build VR-SportTraining.sln
 
       - name: End SonarCloud analysis
         run: dotnet sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
