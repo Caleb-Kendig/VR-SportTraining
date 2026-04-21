@@ -359,6 +359,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Features.Oc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Core.Editor.Shared", "Unity.RenderPipelines.Core.Editor.Shared.csproj", "{DDF56840-B76D-B830-3F09-16B3D478AFB6}"
 EndProject
+<<<<<<< HEAD
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Timeline.Player", "Unity.Timeline.Player.csproj", "{D6F3D62B-3BD7-5817-66A8-CC55B7453257}"
+EndProject
+>>>>>>> 053800ebbf48148753846a92e3aa6c212df8999b
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
