@@ -9,17 +9,15 @@ on:
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
-
-  
 jobs:
   build:
     runs-on: windows-latest
 
-steps:
+    steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Required for better Sonar analysis
+          fetch-depth: 0
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
@@ -29,25 +27,25 @@ steps:
       - name: Set up JDK 17
         uses: actions/setup-java@v3
         with:
+          distribution: zulu
           java-version: '17'
-          distribution: 'zulu'
 
       - name: Install SonarScanner
         run: dotnet tool install --global dotnet-sonarscanner
 
-      - name: Build and Analyze
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          dotnet sonarscanner begin /k:"Caleb-Kendig_VR-SportTraining" /o:"caleb-kendig" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
-          dotnet build VR-SportTraining.sln
-          dotnet sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
-
-      - name: Restore
+      - name: Restore dependencies
         run: dotnet restore VR-SportTraining.sln
 
+      - name: Begin SonarCloud scan
+        run: |
+          dotnet sonarscanner begin ^
+            /k:"Caleb-Kendig_VR-SportTraining" ^
+            /o:"caleb-kendig" ^
+            /d:sonar.token="${{ secrets.SONAR_TOKEN }}" ^
+            /d:sonar.host.url="https://sonarcloud.io"
+
       - name: Build solution
-        run: dotnet build VR-SportTraining.sln
+        run: dotnet build VR-SportTraining.sln --no-restore
 
       - name: End SonarCloud scan
-        run: dotnet sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
+        run: dotnet sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
