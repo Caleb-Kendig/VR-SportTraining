@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Timeline", "Unity.Timeline.csproj", "{5A9FE000-ABBB-F11F-7BFF-4D0ED57E72BF}"
@@ -359,157 +359,157 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Features.Oc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Core.Editor.Shared", "Unity.RenderPipelines.Core.Editor.Shared.csproj", "{DDF56840-B76D-B830-3F09-16B3D478AFB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Timeline.Player", "Unity.Timeline.Player.csproj", "{D6F3D62B-3BD7-5817-66A8-CC55B7453257}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Timeline", "Unity.Timeline.Player.csproj", "{D6F3D62B-3BD7-5817-66A8-CC55B7453257}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.Voice.NLayer.Player", "Meta.Voice.NLayer.Player.csproj", "{47A2B78E-DA37-B4C1-164A-CD51B9733C92}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.Voice.NLayer", "Meta.Voice.NLayer.Player.csproj", "{47A2B78E-DA37-B4C1-164A-CD51B9733C92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.GPUDriven.Runtime.Player", "Unity.RenderPipelines.GPUDriven.Runtime.Player.csproj", "{135BB389-19F3-2458-46CE-59E306211DCD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.GPUDriven.Runtime", "Unity.RenderPipelines.GPUDriven.Runtime.Player.csproj", "{135BB389-19F3-2458-46CE-59E306211DCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.XR.MultiplayerBlocks.Shared.Player", "Meta.XR.MultiplayerBlocks.Shared.Player.csproj", "{1FAA674E-960E-C8CA-58A1-8CB6F75AC39E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.XR.MultiplayerBlocks.Shared", "Meta.XR.MultiplayerBlocks.Shared.Player.csproj", "{1FAA674E-960E-C8CA-58A1-8CB6F75AC39E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.WitAi.Lib.Player", "Meta.WitAi.Lib.Player.csproj", "{675AB3DC-7BAC-3282-24BC-6AC2CAE59197}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.WitAi.Lib", "Meta.WitAi.Lib.Player.csproj", "{675AB3DC-7BAC-3282-24BC-6AC2CAE59197}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.XR.BuildingBlocks.Player", "Meta.XR.BuildingBlocks.Player.csproj", "{A755B203-2CC2-D9B0-629B-B0F8E239E175}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.XR.BuildingBlocks", "Meta.XR.BuildingBlocks.Player.csproj", "{A755B203-2CC2-D9B0-629B-B0F8E239E175}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Core.Runtime.Player", "Unity.RenderPipelines.Core.Runtime.Player.csproj", "{F4651B54-160F-816D-7693-F2AEE2ECECD7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Core.Runtime", "Unity.RenderPipelines.Core.Runtime.Player.csproj", "{F4651B54-160F-816D-7693-F2AEE2ECECD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.WitAi.Player", "Meta.WitAi.Player.csproj", "{679C777B-FD2F-A413-BF43-38510FC90EC5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.WitAi", "Meta.WitAi.Player.csproj", "{679C777B-FD2F-A413-BF43-38510FC90EC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Mathematics.Player", "Unity.Mathematics.Player.csproj", "{11D10CFA-6B53-2CB2-83FD-4E02E0245220}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Mathematics", "Unity.Mathematics.Player.csproj", "{11D10CFA-6B53-2CB2-83FD-4E02E0245220}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI.Player", "UnityEngine.UI.Player.csproj", "{2ABD0772-83AC-DCF7-A3D3-AE53FDFCAA72}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.Player.csproj", "{2ABD0772-83AC-DCF7-A3D3-AE53FDFCAA72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Universal.2D.Runtime.Player", "Unity.RenderPipelines.Universal.2D.Runtime.Player.csproj", "{CF48FA86-7E55-AD0B-C344-E06D60219077}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Universal.2D.Runtime", "Unity.RenderPipelines.Universal.2D.Runtime.Player.csproj", "{CF48FA86-7E55-AD0B-C344-E06D60219077}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Collections.Player", "Unity.Collections.Player.csproj", "{54ABBC76-E3D8-67A2-02D2-795E323A6C05}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Collections", "Unity.Collections.Player.csproj", "{54ABBC76-E3D8-67A2-02D2-795E323A6C05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Platform.Player", "Oculus.Platform.Player.csproj", "{96113E1A-5177-9865-84C5-42129832A736}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Platform", "Oculus.Platform.Player.csproj", "{96113E1A-5177-9865-84C5-42129832A736}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner.Player", "UnityEngine.TestRunner.Player.csproj", "{F76AD21C-FAFE-9886-F172-FB92707E17E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "UnityEngine.TestRunner.Player.csproj", "{F76AD21C-FAFE-9886-F172-FB92707E17E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.VR.Player", "Oculus.VR.Player.csproj", "{672DCB76-3DE3-9C71-519F-3A9ECF6326DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.VR", "Oculus.VR.Player.csproj", "{672DCB76-3DE3-9C71-519F-3A9ECF6326DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Player", "Unity.XR.OpenXR.Player.csproj", "{47153194-7D2C-8D04-5CBF-7A286910CF13}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR", "Unity.XR.OpenXR.Player.csproj", "{47153194-7D2C-8D04-5CBF-7A286910CF13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Interaction.Player", "Oculus.Interaction.Player.csproj", "{2569AD3B-373E-C661-4E06-C2A68541B92E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Interaction", "Oculus.Interaction.Player.csproj", "{2569AD3B-373E-C661-4E06-C2A68541B92E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Burst.Player", "Unity.Burst.Player.csproj", "{69D38F0D-D4BD-C4CC-75E5-A46511833F1C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Burst", "Unity.Burst.Player.csproj", "{69D38F0D-D4BD-C4CC-75E5-A46511833F1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Player", "Unity.XR.Interaction.Toolkit.Player.csproj", "{9E8B71E1-64AD-E563-4A51-1D44B53FF82F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit", "Unity.XR.Interaction.Toolkit.Player.csproj", "{9E8B71E1-64AD-E563-4A51-1D44B53FF82F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InputSystem.Player", "Unity.InputSystem.Player.csproj", "{ACD50FFF-61BF-243F-C65B-D8512400952B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InputSystem", "Unity.InputSystem.Player.csproj", "{ACD50FFF-61BF-243F-C65B-D8512400952B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.XR.ImmersiveDebugger.Player", "Meta.XR.ImmersiveDebugger.Player.csproj", "{29BB47AF-94CD-3429-3EBA-C49035D33959}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.XR.ImmersiveDebugger", "Meta.XR.ImmersiveDebugger.Player.csproj", "{29BB47AF-94CD-3429-3EBA-C49035D33959}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.CoreUtils.Player", "Unity.XR.CoreUtils.Player.csproj", "{F5B96A84-77FB-2A39-91E7-570BDBEBFB77}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.CoreUtils", "Unity.XR.CoreUtils.Player.csproj", "{F5B96A84-77FB-2A39-91E7-570BDBEBFB77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp.Player", "Assembly-CSharp.Player.csproj", "{45ADA861-FFCC-1FB0-01FB-A901DE4269EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.Player.csproj", "{45ADA861-FFCC-1FB0-01FB-A901DE4269EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "meta.xr.mrutilitykit.Player", "meta.xr.mrutilitykit.Player.csproj", "{96DD773E-7E39-A660-46DB-ACEA50668CB8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "meta.xr.mrutilitykit", "meta.xr.mrutilitykit.Player.csproj", "{96DD773E-7E39-A660-46DB-ACEA50668CB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Interaction.Samples.Player", "Oculus.Interaction.Samples.Player.csproj", "{21569E90-A195-D1B3-27BD-FD3B6F1B2CB1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Interaction.Samples", "Oculus.Interaction.Samples.Player.csproj", "{21569E90-A195-D1B3-27BD-FD3B6F1B2CB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Hands.Player", "Unity.XR.Hands.Player.csproj", "{2425213A-704F-035D-AA41-3BFC7FB854E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Hands", "Unity.XR.Hands.Player.csproj", "{2425213A-704F-035D-AA41-3BFC7FB854E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.WitAi.TTS.Player", "Meta.WitAi.TTS.Player.csproj", "{66608BB4-056C-FF45-0F2A-8C49B0859348}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.WitAi.TTS", "Meta.WitAi.TTS.Player.csproj", "{66608BB4-056C-FF45-0F2A-8C49B0859348}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Core.Player", "Unity.VisualScripting.Core.Player.csproj", "{377EFF49-1A8E-616D-DA56-8977D9112FE9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Core", "Unity.VisualScripting.Core.Player.csproj", "{377EFF49-1A8E-616D-DA56-8977D9112FE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Universal.Runtime.Player", "Unity.RenderPipelines.Universal.Runtime.Player.csproj", "{81117025-F567-6A2E-CC8A-0AEB72B678D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Universal.Runtime", "Unity.RenderPipelines.Universal.Runtime.Player.csproj", "{81117025-F567-6A2E-CC8A-0AEB72B678D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.Wit.Composer.Player", "Meta.Wit.Composer.Player.csproj", "{CFD7D0E7-3CAE-529E-9084-CC6D1FD703EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.Wit.Composer", "Meta.Wit.Composer.Player.csproj", "{CFD7D0E7-3CAE-529E-9084-CC6D1FD703EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Interaction.OVR.Player", "Oculus.Interaction.OVR.Player.csproj", "{7CA8CF93-7A01-B523-C062-2D6A3B5E7E0A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Interaction.OVR", "Oculus.Interaction.OVR.Player.csproj", "{7CA8CF93-7A01-B523-C062-2D6A3B5E7E0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.XR.BuildingBlocks.AIBlocks.Player", "Meta.XR.BuildingBlocks.AIBlocks.Player.csproj", "{5DEEF04A-DAA7-577D-1D54-1F3AA4EAF9F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.XR.BuildingBlocks.AIBlocks", "Meta.XR.BuildingBlocks.AIBlocks.Player.csproj", "{5DEEF04A-DAA7-577D-1D54-1F3AA4EAF9F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Flow.Player", "Unity.VisualScripting.Flow.Player.csproj", "{25C20E07-CE3D-E3C0-9B93-E64E9F99BE5B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Flow", "Unity.VisualScripting.Flow.Player.csproj", "{25C20E07-CE3D-E3C0-9B93-E64E9F99BE5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.PerformanceTesting.Player", "Unity.PerformanceTesting.Player.csproj", "{6A0ADA67-4D00-CA94-4CAB-6C6E2D0D3E45}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.PerformanceTesting", "Unity.PerformanceTesting.Player.csproj", "{6A0ADA67-4D00-CA94-4CAB-6C6E2D0D3E45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro.Player", "Unity.TextMeshPro.Player.csproj", "{7AC27C15-A0BE-2042-13E8-E8E445A41215}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro", "Unity.TextMeshPro.Player.csproj", "{7AC27C15-A0BE-2042-13E8-E8E445A41215}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceSDK.Runtime.Player", "VoiceSDK.Runtime.Player.csproj", "{EF96025E-91F4-61D3-D704-88F49D250671}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceSDK.Runtime", "VoiceSDK.Runtime.Player.csproj", "{EF96025E-91F4-61D3-D704-88F49D250671}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceSDK.Telemetry.Runtime.Player", "VoiceSDK.Telemetry.Runtime.Player.csproj", "{AE571042-0CC3-542F-C5D6-759B5CD81E24}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceSDK.Telemetry.Runtime", "VoiceSDK.Telemetry.Runtime.Player.csproj", "{AE571042-0CC3-542F-C5D6-759B5CD81E24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssistantCoreSDKRuntime.Player", "AssistantCoreSDKRuntime.Player.csproj", "{17BF5FDA-50C1-3F81-9EEF-799B8E5BA286}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssistantCoreSDKRuntime", "AssistantCoreSDKRuntime.Player.csproj", "{17BF5FDA-50C1-3F81-9EEF-799B8E5BA286}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Rendering.LightTransport.Runtime.Player", "Unity.Rendering.LightTransport.Runtime.Player.csproj", "{80DBF5E7-4B4C-9D01-1AAA-D64963D24984}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Rendering.LightTransport.Runtime", "Unity.Rendering.LightTransport.Runtime.Player.csproj", "{80DBF5E7-4B4C-9D01-1AAA-D64963D24984}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssistantVoiceCommandCommon.Player", "AssistantVoiceCommandCommon.Player.csproj", "{2206F9E6-8AEF-FEAC-1791-475FA0F4B38E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssistantVoiceCommandCommon", "AssistantVoiceCommandCommon.Player.csproj", "{2206F9E6-8AEF-FEAC-1791-475FA0F4B38E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.State.Player", "Unity.VisualScripting.State.Player.csproj", "{CBAA9658-D258-9DD1-C50D-BF86976C161C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.State", "Unity.VisualScripting.State.Player.csproj", "{CBAA9658-D258-9DD1-C50D-BF86976C161C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Interaction.OVR.Samples.Player", "Oculus.Interaction.OVR.Samples.Player.csproj", "{0827881C-7B24-ACD4-50EE-C6D54370855B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Interaction.OVR.Samples", "Oculus.Interaction.OVR.Samples.Player.csproj", "{0827881C-7B24-ACD4-50EE-C6D54370855B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceSDK.Dictation.Runtime.Player", "VoiceSDK.Dictation.Runtime.Player.csproj", "{89E0C92E-09E3-B2CC-09CA-486CAE46E12C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceSDK.Dictation.Runtime", "VoiceSDK.Dictation.Runtime.Player.csproj", "{89E0C92E-09E3-B2CC-09CA-486CAE46E12C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Postprocessing.Runtime.Player", "Unity.Postprocessing.Runtime.Player.csproj", "{8CFB54AB-FAA3-492B-23DB-9199ECDE5E07}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Postprocessing.Runtime", "Unity.Postprocessing.Runtime.Player.csproj", "{8CFB54AB-FAA3-492B-23DB-9199ECDE5E07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Interaction.UnityXR.Player", "Oculus.Interaction.UnityXR.Player.csproj", "{7C970F60-CD15-9E72-449B-540220454E42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Interaction.UnityXR", "Oculus.Interaction.UnityXR.Player.csproj", "{7C970F60-CD15-9E72-449B-540220454E42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Multiplayer.Center.Common.Player", "Unity.Multiplayer.Center.Common.Player.csproj", "{DDE02D45-C111-3565-41D9-9231C124E735}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Multiplayer.Center.Common", "Unity.Multiplayer.Center.Common.Player.csproj", "{DDE02D45-C111-3565-41D9-9231C124E735}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.XR.Audio.Player", "Meta.XR.Audio.Player.csproj", "{07B24FA3-9856-2ADE-A05A-5DB9E11D249D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.XR.Audio", "Meta.XR.Audio.Player.csproj", "{07B24FA3-9856-2ADE-A05A-5DB9E11D249D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InputSystem.ForUI.Player", "Unity.InputSystem.ForUI.Player.csproj", "{386C4354-4351-C922-A08B-4CA0AAC37A7C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InputSystem.ForUI", "Unity.InputSystem.ForUI.Player.csproj", "{386C4354-4351-C922-A08B-4CA0AAC37A7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.AI.Navigation.Player", "Unity.AI.Navigation.Player.csproj", "{FE10C51A-1FEA-A084-D6E5-B753B8B7750E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.AI.Navigation", "Unity.AI.Navigation.Player.csproj", "{FE10C51A-1FEA-A084-D6E5-B753B8B7750E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Player", "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Player.csproj", "{3271A873-974F-99D3-A6A9-B4DD5AC575B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Samples.StarterAssets", "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Player.csproj", "{3271A873-974F-99D3-A6A9-B4DD5AC575B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Management.Player", "Unity.XR.Management.Player.csproj", "{F0EB1010-1974-89D7-206A-02BD2A20BC66}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Management", "Unity.XR.Management.Player.csproj", "{F0EB1010-1974-89D7-206A-02BD2A20BC66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.Wit.Dictation.Player", "Meta.Wit.Dictation.Player.csproj", "{9B122491-0DE5-86A8-4D3F-F1948FEE57E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.Wit.Dictation", "Meta.Wit.Dictation.Player.csproj", "{9B122491-0DE5-86A8-4D3F-F1948FEE57E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.XR.EnvironmentDepth.Player", "Meta.XR.EnvironmentDepth.Player.csproj", "{5CE67363-0E61-0F60-0BCC-C1B65C6A36DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.XR.EnvironmentDepth", "Meta.XR.EnvironmentDepth.Player.csproj", "{5CE67363-0E61-0F60-0BCC-C1B65C6A36DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.VoiceSDK.Mic.Common.Player", "Meta.VoiceSDK.Mic.Common.Player.csproj", "{81580FAC-A82C-D7FD-F424-2E2F6D8B12DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.VoiceSDK.Mic.Common", "Meta.VoiceSDK.Mic.Common.Player.csproj", "{81580FAC-A82C-D7FD-F424-2E2F6D8B12DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InputSystem.TestFramework.Player", "Unity.InputSystem.TestFramework.Player.csproj", "{90907F00-6550-82CC-F53D-3FBE93F6ECA2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InputSystem.TestFramework", "Unity.InputSystem.TestFramework.Player.csproj", "{90907F00-6550-82CC-F53D-3FBE93F6ECA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Haptics.Player", "Oculus.Haptics.Player.csproj", "{A416F118-5937-441B-1FB9-A327FCA04B98}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Haptics", "Oculus.Haptics.Player.csproj", "{A416F118-5937-441B-1FB9-A327FCA04B98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.VoiceSDK.Mic.Other.Player", "Meta.VoiceSDK.Mic.Other.Player.csproj", "{5DBBA974-A9CE-8C7B-F56A-EFA67FD1D8A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.VoiceSDK.Mic.Other", "Meta.VoiceSDK.Mic.Other.Player.csproj", "{5DBBA974-A9CE-8C7B-F56A-EFA67FD1D8A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.Voice.Hub.Runtime.Player", "Meta.Voice.Hub.Runtime.Player.csproj", "{481F5A32-0634-54AA-A1AA-756FE56BCA4F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.Voice.Hub.Runtime", "Meta.Voice.Hub.Runtime.Player.csproj", "{481F5A32-0634-54AA-A1AA-756FE56BCA4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Features.MetaQuestSupport.Player", "Unity.XR.OpenXR.Features.MetaQuestSupport.Player.csproj", "{EA3B0A8D-7A48-8045-1698-635346E599F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Features.MetaQuestSupport", "Unity.XR.OpenXR.Features.MetaQuestSupport.Player.csproj", "{EA3B0A8D-7A48-8045-1698-635346E599F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.XR.ImmersiveDebugger.Interface.Player", "Meta.XR.ImmersiveDebugger.Interface.Player.csproj", "{D6D77066-FE98-7431-D441-AD9C7F5F667C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.XR.ImmersiveDebugger.Interface", "Meta.XR.ImmersiveDebugger.Interface.Player.csproj", "{D6D77066-FE98-7431-D441-AD9C7F5F667C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipeline.Universal.ShaderLibrary.Player", "Unity.RenderPipeline.Universal.ShaderLibrary.Player.csproj", "{0E7DC05C-6648-C971-5D79-69F4979D2A3F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipeline.Universal.ShaderLibrary", "Unity.RenderPipeline.Universal.ShaderLibrary.Player.csproj", "{0E7DC05C-6648-C971-5D79-69F4979D2A3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Features.RuntimeDebugger.Player", "Unity.XR.OpenXR.Features.RuntimeDebugger.Player.csproj", "{69DD39A3-9B31-BB2E-3E5D-29E58A73A065}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Features.RuntimeDebugger", "Unity.XR.OpenXR.Features.RuntimeDebugger.Player.csproj", "{69DD39A3-9B31-BB2E-3E5D-29E58A73A065}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.SpatialTracking.Player", "UnityEngine.SpatialTracking.Player.csproj", "{B3784549-75DA-5ACA-125A-59E6858E5615}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.SpatialTracking", "UnityEngine.SpatialTracking.Player.csproj", "{B3784549-75DA-5ACA-125A-59E6858E5615}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.XR.LegacyInputHelpers.Player", "UnityEngine.XR.LegacyInputHelpers.Player.csproj", "{AB32640E-9840-1F5C-36BB-4D351F424E6F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.XR.LegacyInputHelpers", "UnityEngine.XR.LegacyInputHelpers.Player.csproj", "{AB32640E-9840-1F5C-36BB-4D351F424E6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Universal.Shaders.Player", "Unity.RenderPipelines.Universal.Shaders.Player.csproj", "{EF085E06-C4B3-BE3C-2EDB-638BD2F93B69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Universal.Shaders", "Unity.RenderPipelines.Universal.Shaders.Player.csproj", "{EF085E06-C4B3-BE3C-2EDB-638BD2F93B69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Core.Runtime.Shared.Player", "Unity.RenderPipelines.Core.Runtime.Shared.Player.csproj", "{1F81FDE5-7094-31D3-0E1B-BB8D6E5A8E8E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Core.Runtime.Shared", "Unity.RenderPipelines.Core.Runtime.Shared.Player.csproj", "{1F81FDE5-7094-31D3-0E1B-BB8D6E5A8E8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.Net.endel.nativewebsocket.Player", "Meta.Net.endel.nativewebsocket.Player.csproj", "{1FC3374B-A441-FC58-C88B-5BB6D96FFB81}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.Net.endel.nativewebsocket", "Meta.Net.endel.nativewebsocket.Player.csproj", "{1FC3374B-A441-FC58-C88B-5BB6D96FFB81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.Voice.Opus.Player", "Meta.Voice.Opus.Player.csproj", "{0B4C4411-03C5-F6C5-FA9D-74B8BC93EAB3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.Voice.Opus", "Meta.Voice.Opus.Player.csproj", "{0B4C4411-03C5-F6C5-FA9D-74B8BC93EAB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.TestTooling.Player", "Unity.XR.OpenXR.TestTooling.Player.csproj", "{E069C516-F84F-832A-2377-18A98B7150E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.TestTooling", "Unity.XR.OpenXR.TestTooling.Player.csproj", "{E069C516-F84F-832A-2377-18A98B7150E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Features.ConformanceAutomation.Player", "Unity.XR.OpenXR.Features.ConformanceAutomation.Player.csproj", "{9D503B73-0464-80A9-2940-92B7D1269EFC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Features.ConformanceAutomation", "Unity.XR.OpenXR.Features.ConformanceAutomation.Player.csproj", "{9D503B73-0464-80A9-2940-92B7D1269EFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Features.MockRuntime.Player", "Unity.XR.OpenXR.Features.MockRuntime.Player.csproj", "{1439C15F-7DAE-A989-C81A-2DA505359C78}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Features.MockRuntime", "Unity.XR.OpenXR.Features.MockRuntime.Player.csproj", "{1439C15F-7DAE-A989-C81A-2DA505359C78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceSDK.Runtime.Composer.Player", "VoiceSDK.Runtime.Composer.Player.csproj", "{9C638470-B25B-28CF-A100-DE627CC43E34}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceSDK.Runtime.Composer", "VoiceSDK.Runtime.Composer.Player.csproj", "{9C638470-B25B-28CF-A100-DE627CC43E34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Universal.Config.Runtime.Player", "Unity.RenderPipelines.Universal.Config.Runtime.Player.csproj", "{EB8F1BC3-0F2E-6737-DBC5-F0982B8A296C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Universal.Config.Runtime", "Unity.RenderPipelines.Universal.Config.Runtime.Player.csproj", "{EB8F1BC3-0F2E-6737-DBC5-F0982B8A296C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player", "Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj", "{41A950FA-58A4-A59F-16C4-82C46E796447}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary", "Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj", "{41A950FA-58A4-A59F-16C4-82C46E796447}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Core.ShaderLibrary.Player", "Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj", "{4ACB850F-75A5-1127-DCBD-C3364AE04D4F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Core.ShaderLibrary", "Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj", "{4ACB850F-75A5-1127-DCBD-C3364AE04D4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Features.OculusQuestSupport.Player", "Unity.XR.OpenXR.Features.OculusQuestSupport.Player.csproj", "{4C9AD920-8879-CF47-DFA8-6CF8449FB929}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Features.OculusQuestSupport", "Unity.XR.OpenXR.Features.OculusQuestSupport.Player.csproj", "{4C9AD920-8879-CF47-DFA8-6CF8449FB929}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
