@@ -27,8 +27,7 @@ jobs:
         
      # 4. Begin SonarCloud analysis
       - name: Begin SonarCloud scan
-        run: dotnet sonarscanner begin /k:"Caleb-Kendig_VR-SportTraining" /o:"caleb-kendig" /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
-
+        run: dotnet sonarscanner begin /k:"Caleb-Kendig_VR-SportTraining" /o:"caleb-kendig" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /s:"VR-SportTraining.sln"
       
       - name: Build solution
         run: dotnet build ./VR-SportTraining.sln
