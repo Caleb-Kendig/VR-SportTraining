@@ -24,12 +24,16 @@ jobs:
       # 3. Install SonarScanner
       - name: Install SonarScanner
         run: dotnet tool install --global dotnet-sonarscanner
+        
+     # 4. Begin SonarCloud analysis
       - name: Begin SonarCloud scan
-        run: dotnet sonarscanner begin /k:"Caleb-Kendig_VR-SportTraining" /o:"caleb-kendig" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.sources=.
+        run: dotnet sonarscanner begin /k:"Caleb-Kendig_VR-SportTraining" /o:"caleb-kendig" /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
 
+      
       - name: Build solution
         run: dotnet build VR-SportTraining.sln
 
+      # 6. End SonarCloud analysis
       - name: End SonarCloud scan
         run: dotnet sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
       
