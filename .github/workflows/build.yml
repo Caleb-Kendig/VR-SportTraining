@@ -19,6 +19,10 @@ jobs:
         with:
           fetch-depth: 0
 
+      # 🔍 DEBUG: shows what project files actually exist
+      - name: List all .csproj files
+        run: dir /s *.csproj
+
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
@@ -43,6 +47,8 @@ jobs:
           /o:"caleb-kendig"
           /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
           /d:sonar.host.url="https://sonarcloud.io"
+          /d:sonar.exclusions=**/Library/**,**/Temp/**,**/obj/**,**/*.meta
+          /d:sonar.dotnet.excludeGeneratedCode=true
 
       - name: Build solution
         run: dotnet build VR-SportTraining.sln --no-restore
